@@ -1,0 +1,11 @@
+name: filetree
+functions:
+  fileTree:
+    path: filetree.ts:toggleFileTree
+    command:
+      name: "Toggle file tree"
+  updateTree:
+    path: filetree.ts:updateTree
+    events:
+      - editor:pageLoaded
+
